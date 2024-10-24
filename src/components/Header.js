@@ -55,7 +55,7 @@ const Header = () => {
             {
               socials.map(({ icon, url }) => (
                 <a  href={ url } key={ url }>
-                  <FontAwesomeIcon icon={ icon }/>
+                  <FontAwesomeIcon icon={ icon } size="xl"/>
                 </a>
               ))
             }
@@ -63,8 +63,8 @@ const Header = () => {
           </nav>
           <nav>
             <HStack spacing={8}>      
-                <Link href="#" >Projects</Link>
-                <Link href="#" >Contact Me</Link>
+                <Link href="#" fontSize="xl">Projects</Link>
+                <Link href="#" fontSize="xl">Contact Me</Link>
             </HStack>
           </nav>
         </HStack>
