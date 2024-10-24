@@ -1,6 +1,7 @@
 import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
+import avatarimage from "../images/avatar.jpg";
 
 const greeting = "Hello, I am Pete!";
 const bio1 = "A frontend developer";
@@ -15,6 +16,8 @@ const LandingSection = () => (
     isDarkBackground
     backgroundColor="#2A4365"
   >
+
+  <Avatar name="Levi Martinez" src={avatarimage} size="2xl"/>
 
   </FullScreenSection>
 );
