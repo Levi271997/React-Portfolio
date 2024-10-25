@@ -17,7 +17,7 @@ const LandingSection = () => (
   >
 
   <Avatar name="Levi Martinez" src={avatarimage} size="2xl"/>
-  <Text fontSize="2xl" fontWeight="medium" textTransform="uppercase">{greeting}</Text>
+  <Text fontSize="2xl" fontWeight="medium" textTransform="uppercase" mb="10">{greeting}</Text>
   <Heading as="h1" size="4xl">{bio1}</Heading>
   <Heading as="h1" size="4xl">{bio2}</Heading>
   </FullScreenSection>
