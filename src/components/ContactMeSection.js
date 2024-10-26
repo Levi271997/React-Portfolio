@@ -43,6 +43,7 @@ const LandingSection = () => {
     }),
     onSubmit: async (values) => {
       const result = await submit(values);
+     
       if (result.success) {
         onOpen('Form submitted successfully!', 'success');
         formik.resetForm();
